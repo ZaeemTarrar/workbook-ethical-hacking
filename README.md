@@ -7,10 +7,7 @@
 1. Physical Addressing
     - Mac Address
 2. Logical Addressing
-    - IPv4
-
-    It is a 32 bit logical address ( 4 Octet )
-
+    - IPv4 ( It is a 32 bit logical address, 4 Octet )
         - Public
         - Private
         - ( Virtual Private Network )
