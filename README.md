@@ -1,8 +1,8 @@
 # Ethical Hacking
 
-# IP Addres
+## IP Addres
 
-## Types
+### Types
 
 1. Physical Addressing
     - Mac Address
@@ -16,7 +16,7 @@
         - ( Virtual Private Network )
     - IPv6
 
-# Protocols
+## Protocols
 1. Http
     - Http1.1 ( Http )
     - Http2
@@ -28,7 +28,7 @@
 2. Ftp
 3. Tcp
 
-Types of Networks
+## Types of Networks
 1. PAN ( Personal Area Network )
     - HotSpot
 2. LAN ( Local Area Network )
@@ -37,7 +37,7 @@ Types of Networks
     - Internet
 4. MAN
 
-# OSI Layers
+## OSI Layers
 1. Application Layer
 2. Presentation Layer
 3. Session Layer
@@ -46,11 +46,11 @@ Types of Networks
 6. Data Links Layers
 7. Physical Layer
 
-# Proxy
+## Proxy
 1. VPN
     - OpenVPN
 
-# Linux Basic Commands
+## Linux Basic Commands
 1. `apt-get update`
 2. `apt-get upgrade`
 3. `ls` `ls -a` `ls --help`
@@ -66,6 +66,6 @@ Types of Networks
 13. `openvpn`
 14. `ping [url]`
 
-# Off Topics
+## Off Topics
 - DOD
 - TSL/IP
