@@ -8,9 +8,11 @@
     - Mac Address
 2. Logical Addressing
     - IPv4 ( It is a 32 bit logical address, 4 Octet )
-        - Public ( e.g. WAN )
-         ```
+        ```
                         255 -> Network Id   |   0 -> Host Id
+        ```
+        - Public ( e.g. WAN )
+        ```
         Address Class       Range                                   Default Subnet Mask
         A                   10.0.0.0 to 126.255.255.255              255.0.0.0
         B                   172.16.0.0 to 172.31.255.255            255.255.0.0
@@ -27,6 +29,7 @@
         E                   240.0.0.0 to 254.255.255.255            Experimental
         ```
         - ( Virtual Private Network )
+        
         `127.0.0.0 to 127.255.255.255 are reserved for loop back testing`
     - IPv6
 
