@@ -11,6 +11,15 @@
         - Public
         - Private
         - ( Virtual Private Network )
+        ```
+        Address Class       Range                                   Default Subnet Mask
+        A                   1.0.0.0 to 126.255.255.255              255.0.0.0
+        B                   128.0.0.0 to 191.255.255.255            255.255.0.0
+        C                   192.0.0.0 to 223.255.255.255            255.255.255.0
+        D                   224.0.0.0 to 239.255.255.255            Reserved for Multi-Casting
+        E                   240.0.0.0 to 254.255.255.255            Experimental
+        ```
+        `127.0.0.0 to 127.255.255.255 are reserved for loop back testing`
     - IPv6
 
 ## Protocols
