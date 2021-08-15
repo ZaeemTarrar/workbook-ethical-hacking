@@ -135,7 +135,7 @@
 8. `man ls` `man apt` `man cd` `man -k`
     - `q` `/` `N` `Shift+N` `↑` `↓` `PageUp` `PageDown` `G` `Shift+G` ``
 9. `ifconfig` `ifconfig -a`
-10. `ps` `ps -aux` `kill [pid]` `Ctrl+z` `fg [jobId]`
+10. `jobs` `ps [-f] [-e] [-u [name] ] [-p [PID] ]` `ps -aux` `kill [-9] [pid]` `Ctrl+z` `fg [jobId]`
 11. `passwd` **#** **$**
 12. `sudo` `apt` `apt-get`
 13. `openvpn` `route`
@@ -160,14 +160,26 @@
 32.  `file [name of file]`
 33. `apropos [gzip]`
 34. `which [gzip]`
-35. `nsloopup [google.com]` `cat /etc/resolve.conf`
+35. `nslookup [google.com]` `cat /etc/resolve.conf`
 36. `ip route` `traceroute [hackersacadmy.com]`
 37. `netstat -antp`
 38. `nano [file.txt]`
-39. `service apache2 start`
+39. **Apache Service** `service apache2 start`
     - `/var/www/html/`
 40. **Redirection** `echo "Hello world" > downloadme`
 41. **Transfer Files over Protocols** `wget [url]`
+42. **SSH Service** `service ssh start` `service ssh restart` `service ssh stop`
+    - `/etc/ssh/sshd_config`
+43. **/etc/shh/** `dpkg-reconfigure openssh-server`
+44. **/etc/passwrd** **/etc/shadow** **/etc/groups**
+45. `ssh user@192.168.100.20`
+46. `whoami` `w`
+47. `adduser` `useradd`
+48. `deluser [--remove-home]` `userdel` `usermod -g [group_name] [user_name]`
+49. `chmod ugoa +-= rwx [filename]`
+50. `su [root]`
+51. **Background** `nmap -v -TO [hackthissite.org] &`
+52. `tmux` `tmux list-sessions` **Ctrl+b+d** `tmux attach` `nohup [command] &`
 
 ## Off Topics
 - DOD
@@ -176,3 +188,4 @@
 - Whois
 - Gateway
 - Routes
+- SCP
