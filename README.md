@@ -107,6 +107,23 @@
     ls -l /Desktop
     ```
 
+## Wild Cards
+- *
+- ?
+- []
+- /
+- Tree
+
+## Network Interfaces
+- eth{0} ( Wired Network )
+- lo ( Loop Back Address )
+- wlan{0} ( Wireless Network )
+
+## Services
+- SSH { Remote Login / Administration }
+- Apache { Web Server }
+- SEP
+
 ## Linux Basic Commands
 1. `apt-get update`
 2. `apt-get upgrade` `apt-get full-upgrade`
@@ -115,7 +132,8 @@
 5. `mkdir` `mkdir -p` `rmdir` `rm -r` `rm -r -i` `rm -rf`
 6. `touch` `rm` `rm -rf abc.txt`
 7. `history` `history -c`
-8. `man ls` `man apt` `man cd`
+8. `man ls` `man apt` `man cd` `man -k`
+    - `q` `/` `N` `Shift+N` `↑` `↓` `PageUp` `PageDown` `G` `Shift+G` ``
 9. `ifconfig` `ifconfig -a`
 10. `ps` `ps -aux` `kill [pid]` `Ctrl+z` `fg [jobId]`
 11. `passwd` **#** **$**
@@ -139,9 +157,22 @@
 29. `tar c` `tar r` `tar t` `tar x` `tar v` `tar f file` `tar xvf archive.tar -C ~/Desktop/`
 30. **gzip** **bzip2**
 31. `tar zcvf compressed.tar.gz file1 file2` `tar jcvf compressed.tar.bz2 file1 file2`
+32.  `file [name of file]`
+33. `apropos [gzip]`
+34. `which [gzip]`
+35. `nsloopup [google.com]` `cat /etc/resolve.conf`
+36. `ip route` `traceroute [hackersacadmy.com]`
+37. `netstat -antp`
+38. `nano [file.txt]`
+39. `service apache2 start`
+    - `/var/www/html/`
+40. **Redirection** `echo "Hello world" > downloadme`
+41. **Transfer Files over Protocols** `wget [url]`
 
 ## Off Topics
 - DOD
 - TSL/IP
 - DNS
 - Whois
+- Gateway
+- Routes
