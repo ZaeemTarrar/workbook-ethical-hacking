@@ -124,6 +124,14 @@
 - Apache { Web Server }
 - SEP
 
+## Redictions
+- `>` Add
+- `>>` Append
+- `<` Extract
+
+## Piping
+- |
+
 ## Linux Basic Commands
 1. `apt-get update`
 2. `apt-get upgrade` `apt-get full-upgrade`
@@ -180,6 +188,15 @@
 50. `su [root]`
 51. **Background** `nmap -v -TO [hackthissite.org] &`
 52. `tmux` `tmux list-sessions` **Ctrl+b+d** `tmux attach` `nohup [command] &`
+53. **Add** `>` **Append** `>>` **Extract** `<`
+54. `car [-n] users1 users2 > all-users`
+55. `ls /usr/share/nmap/scripts/ | less`
+55. `ls /usr/share/nmap/scripts/ | grep [brute]`
+56. **smtp-brute.nse** -> List of Credentials
+57. **Count Entities** `wc -l [filename]`
+58. **Filter** `grep [10.10.10] [filename]`
+59. **Gnmap Grep with Slicing, Sorting & Unique Items**
+ `grep 25/open output.gnmap | cut -d " " -f 2 | sort -u`
 
 ## Off Topics
 - DOD
@@ -189,3 +206,5 @@
 - Gateway
 - Routes
 - SCP
+- SMTP
+- TCP
